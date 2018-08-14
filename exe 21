@@ -1,0 +1,25 @@
+public class Main
+{
+	    int id;  
+	    String name;  
+	    Main(){System.out.println("default constructor is invoked");}  
+	      
+	    Main(int id,String name){  
+	    this ();//it is used to invoked current class constructor.  
+	    this.id = id;  
+	    this.name = name;  
+	    }  
+	    void display(){System.out.println(id+" "+name);} 
+        public static void main(String args[]){ 
+	  
+	    Main s1 = new Main (001,"abi");  
+	    Main s2 = new Main (002,"maha");  
+	     
+	  
+	    s1.display();  
+	    s2.display();  
+	    
+  
+
+	}
+}
