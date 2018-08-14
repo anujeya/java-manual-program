@@ -1,0 +1,23 @@
+public class Main
+{
+	    int id;  
+	    String name;  
+	      
+	    Main(int id,String name){  
+	    this.id = id;  
+	    this.name = name;  
+	    }  
+	    void display(){System.out.println(id+" "+name);} 
+	    public static void main(String args[]){ 
+	  
+	    Main s1 = new Main (001,"mathu");  
+	    Main s2 = new Main (002,"anu");  
+	     
+	  
+	    s1.display();  
+	    s2.display();  
+	    
+  
+
+	}
+}
