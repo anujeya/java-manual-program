@@ -1,0 +1,18 @@
+class Main
+	{  
+	    int id;  
+	    String name;  
+	      
+	    Main(int i,String n){  
+	    id = i;  
+	    name = n;  
+	    }  
+	    void display(){System.out.println(id+" "+name);}  
+	   
+	    public static void main(String args[]){  
+	    Main s1 = new Main(100,"anu");  
+	    Main s2 = new Main(001,"anu priya");  
+	    s1.display();  
+	    s2.display();
+ 	 }  
+	}  
