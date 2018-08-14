@@ -1,0 +1,26 @@
+public class Main
+{
+	    int id;  
+	    String name;  
+	    String city;  
+	      
+	    Main(int id,String name){  
+	    this.id = id;  
+	    this.name = name;  
+	    }  
+	    Main(int id,String name,String city){  
+	    this(id,name);//now no need to initialize id and name  
+	    this.city=city;  
+	    }  
+	    void display(){System.out.println(id+" "+name+" "+city);}
+         public static void main(String args[]){ 
+	  
+	    Main e1 = new Main (121,"maha");  
+	    Main e2 = new Main (122,"anu");  
+	    e1.display();  
+	    e2.display();  
+	    
+  
+
+	}
+}
