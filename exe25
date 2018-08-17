@@ -1,0 +1,21 @@
+class Main {
+
+		Main getA(){  
+
+			return this;  
+
+			}  
+
+			void msg(){System.out.println("Hello java");}  
+
+			}  
+
+			public class Main{  
+
+			public static void main(String args[]){  
+
+			new Main().getA().msg();  
+
+			}  
+
+			}  
