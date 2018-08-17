@@ -1,0 +1,19 @@
+public class Main {
+
+	public static void main(String ar[])
+
+	{
+
+		String j="Java";
+
+		char ch[]={'a','n','u','a','b','i'};
+
+		String j1=new String(ch);
+
+		System.out.println(j+" "+j1);
+
+	}
+
+
+
+}
