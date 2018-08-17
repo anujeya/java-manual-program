@@ -1,0 +1,35 @@
+class Main
+
+{
+
+	int data=50;
+
+void change(int data)
+
+{
+
+this.data=data+100;	
+
+}
+
+}
+
+public class Main{
+
+
+
+public static void main(String ar[])
+
+{
+
+	Main Ma=new Main();
+
+	System.out.println(op.data);
+
+	Ma.change(500);
+
+	System.out.println(op.data);
+
+}
+
+}
