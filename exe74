@@ -1,0 +1,21 @@
+public class Main {
+
+	public static void main(String ar[])
+
+	{
+
+		String cap="J";
+
+		String name=cap.concat(" anu priya");
+
+		System.out.println(name.substring(3));
+
+		System.out.println(name.substring(0,4));
+
+		
+
+	}
+
+
+
+}
