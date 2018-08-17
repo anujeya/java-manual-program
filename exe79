@@ -1,0 +1,15 @@
+public class Main {
+
+	public static void main(String ar[])
+
+	{
+
+		String s1="J anu priya";
+
+		String s2=s1.intern();
+
+		System.out.println(s2);
+
+	}
+
+}
