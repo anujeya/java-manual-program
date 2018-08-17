@@ -1,0 +1,20 @@
+public class lab70 {
+
+	public static void main(String ar[])
+
+	{
+
+		String s1="J";
+
+		String s2="J";
+
+		String s3="anu priya";
+		System.out.println(s1.compareTo(s2));
+
+		System.out.println(s1.compareTo(s3));
+
+	}
+
+
+
+}
