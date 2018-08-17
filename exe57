@@ -1,0 +1,31 @@
+public class Main {
+
+	public static void main(String ar[])
+
+	{
+
+int i;
+
+char[] a=new char[6];
+
+a[0]='a';
+
+a[1]='n';
+
+a[2]='u';
+
+a[3]='a';
+
+a[4]='b';
+
+a[5]='i';
+
+for(i=0;i<6;i++)
+
+{
+
+	System.out.println(a[i]);
+    
+}
+}
+}
