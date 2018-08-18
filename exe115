@@ -1,0 +1,25 @@
+import java.util.*; 
+public class Main
+{
+ public static void main(String[] args)
+ {
+        int n;
+        Scanner in = new Scanner(System.in);	
+        System.out.print("Enter a number : ");
+        int a = in.nextInt(); 
+        System.out.printf("Is %d is a palindrome number?\n",a);
+		System.out.println(palindrome(a)); 
+    }
+    
+private static boolean palindrome(int x) {
+        String ch = String.valueOf(x);
+        int i = 0;
+        int j = ch.length() - 1;
+        while (i < j) {
+            if (ch.charAt(i++) != ch.charAt(j--)) {
+                return false;
+            }
+        }
+        return true;
+  }
+}
