@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main
+{
+     public static void main(String[] arg) 
+	 {
+	   int a,b ;
+	   Scanner in = new Scanner(System.in);	
+	   System.out.print("Enter the  first number: ");
+	   a = in.nextInt(); 
+	   System.out.print("Enter the  second number: ");
+	   b = in.nextInt(); 
+      while(b != 0){
+            int c = a & b;
+            a = a ^ b;
+            b = c << 1;
+        }
+        System.out.print("Sum: "+a); 
+		System.out.print("\n");     	
+	}	
+}
