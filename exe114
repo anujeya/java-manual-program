@@ -1,0 +1,28 @@
+import java.util.*;
+import java.util.*;
+public class Main
+{
+     public static void main(String[] arg) 
+   {
+	 String ch = "abcdefsw"; 
+     char[] s = ch.toCharArray();
+	 int offset=4;
+     int l = s.length;
+     offset %= l;
+     reverse(s, 0, l - offset - 1);
+     reverse(s, l - offset, l - 1);
+     reverse(s, 0, l - 1);
+     System.out.println("\n"+Arrays.toString(s));
+    }
+    private static void reverse(char[] ch, int s, int e)
+    {
+        while (s < e) 
+        {
+            char t = ch[s];
+            ch[s] = ch[e];
+            ch[e] = t;
+            s++;
+            e--;
+        }
+    }
+}
