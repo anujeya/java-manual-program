@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main 
+{
+     public static void main(String[] arg) 
+	 {
+
+		Scanner in = new Scanner(System.in);	
+		System.out.print("Enter a number: ");
+	    int x1 = in.nextInt(); 
+        int x2 = x1;
+		long c = 0;
+		while (x1 != 0) 
+		{
+			c += x1 / 5;
+			x1 /= 5;
+		}
+		System.out.printf("Number of trailing zeros of the factorial %d is %d ",x2,c);
+		System.out.printf("\n");      	   
+	}	
+}
