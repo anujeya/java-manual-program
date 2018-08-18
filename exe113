@@ -1,0 +1,27 @@
+import java.util.*;
+public class Main 
+{
+     public static void main(String[] arg) 
+	 {
+        int arr1[]= {1,2,3,4,0,0,0,0};
+       int[] arr2 = {2,5,7,8};
+        System.out.println("\nArray1: "+Arrays.toString(arr1));  
+	    System.out.println("\nArray2: "+Arrays.toString(arr2));
+		int a =4, b=4;
+		int i= a-1, j = b-1, ind = a + b - 1;
+        while (i >= 0 && j >= 0) {
+            if (arr1[i] > arr2[j]) {
+                arr1[ind--] = arr1[i--];
+            } else {
+                arr1[ind--] = arr2[j--];
+            }
+        }
+        while (i >= 0) {
+            arr1[ind--] = arr1[i--];
+        }
+        while (j >= 0) {
+            arr1[ind--] = arr2[j--];
+        }
+    System.out.println("\nMerged array: "+Arrays.toString(arr1));  
+	}
+}
