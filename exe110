@@ -1,0 +1,25 @@
+mport java.util.Scanner;
+public class Main
+{
+     public static void main(String[] arg) 
+	 {
+	   int t = 0,n;
+	   Scanner in = new Scanner(System.in);	
+	   System.out.print("Enter a number : ");
+	   n = in.nextInt(); 
+       if (n < 1) {
+			 System.out.print(Boolean.toString(false));
+			 t = 1;
+		}
+		if ((n & (n - 1)) != 0) {
+			System.out.print(Boolean.toString(false));
+			t = 1;
+		}
+		if (t==0)
+		{
+			System.out.print(Boolean.toString((n & 0x55555555) != 0));      	
+		}
+		System.out.print("\n");
+	}	
+}
+© 2018 GitHub, Inc.
